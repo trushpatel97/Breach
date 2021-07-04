@@ -6,7 +6,7 @@ import json
 breached = False
 def main():
 	while True:
-		print("Please enter the domain name followed by TLD\nExample: google.com\n")
+		print("Please enter the domain name followed by TLD\nExample: ahashare.com\n")
 		urlInput = input("Search domain: ")
 		if urlInput.isnumeric()==False:
 			is_breached(urlInput)
